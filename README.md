@@ -6,19 +6,19 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+ruby 2.4.1
 
-* System dependencies
+* Rails version
+5.2.2
 
-* Configuration
+* Installation
+After install the ruby version run `bundle install` for installing all the required gems to run the project, then enter `rails s` to run the app 
+
+You can see the fibonacci function working at `localhost:3000/fibonacci/_number` where `_number` is your dessired fibonacci number
 
 * Database creation
-
-* Database initialization
+`rails db:migrate`
 
 * How to run the test suite
+`bundle exec rspec`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
